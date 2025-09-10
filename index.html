@@ -3,15 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senhor dos Aneis</title>
+    <title>Landing Page - Senhor dos Aneis</title>
     <link rel="stylesheet" href="./dist/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <h1 class="title--big">Senhor dos Aneis</h1>
+        <div class="header__container">
+            <h1 class="title-big">Senhor dos Aneis</h1>
+            <ul class="header__container__list">
+                <li class="header__container__list__item">
+                    <a href="#" class="title--small">Inicio</a>
+                </li>
+                <li class="header__container__list__item">
+                    <a href="#" class="title--small">Sobre o filme</a>
+                </li>
+                <li class="header__container__list__item">
+                    <a href="#" class="title--small">Personagens</a>
+                </li>
+            </ul>
+        </div>
     </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h3 class="title">Bem-vindos ao Condado</h3>
+            <p class="title--small">Um lugar de paz e tranquilidade, lar dos Hobbits. Com seus campos verdes e colinas suaves, é um refugio da tumultuada Terra Média.</p>
+            <button class="button">
+                <a href="#" class="title--small">Saiba mais</a>
+            </button>
+        </div>
+    </section>
+    <section class="about__movie">
+        <h2 class="title">Sobre o filme</h2>
+        <div class="about__movie__container">
+            <div class="about__movie__info">
+                <p class="text">O Senhor dos Anéis é uma trilogia cinematográfica dirigida por Peter Jackson com base na obra-prima homónima de J.R.R Tolkien.</p>
+                <p class="text">Localizada no mundo ficcional na Terra Média, os três filmes seguem o jovem hobbit Frodo Bolseiro em sua missão de destruir o "Um Anel", assegurando assim também a destruição de seu criador, o Senhor das Trevas Sauron. Para auxiliá-lo em sua tarefa, forma-se uma sociedade, composta por representantes dos humanos, hobbits, elfos e anões, encarregados de sua segurança pelos estranhos caminhos que terá que seguir.</p>
+                <p class="text">No entanto, a sociedade quebra-se e Frodo continua sua jornada sozinho, apenas acompanhado por seu amigo fiel, Samwise Gamgee, e pelo traiçoeiro Gollum.</p>
+            </div>
+            <div class="about__movie__trailer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0i86oM1nHjM?si=Ri_s-DYRzDpMuQNN"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <h3 class="title">Trailer do Filme</h3>
+            </div>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button class="shows__tabs__button">
+                Personagens
+            </button>
+            <button class="shows__tabs__button">
+                Galeria
+            </button>
+            <button class="shows__tabs__button">
+                A trilogia
+            </button>
+        </nav>
+    </section>
 </body>
 </html>

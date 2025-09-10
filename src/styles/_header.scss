@@ -1,0 +1,32 @@
+@use 'variaveis';
+
+.header {
+    background-color: variaveis.$corDoTitulo;
+    position: sticky;
+    top: 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 20px;
+
+        h1 {
+            color: variaveis.$corBotoes;
+        }
+
+        &__list {
+            display: flex;
+            align-items: center;
+
+            &__item {
+                margin-right: 15px;
+
+                a {
+                    text-decoration: none;
+                    color: variaveis.$corBotoes;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

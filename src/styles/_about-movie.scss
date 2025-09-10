@@ -1,0 +1,32 @@
+.about__movie {
+    margin-top: 70px;
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 25px;
+        margin-top: 50px;
+    }
+
+    &__info {
+        max-width: 620px;
+        width: 100%;
+        margin: 0 auto;
+
+        p {
+            font-family: Roboto, sans-serif;
+            margin-top: 15px;
+        }
+    }
+
+    &__trailer {
+        h3 {
+            text-align: center;
+        }
+    }
+}

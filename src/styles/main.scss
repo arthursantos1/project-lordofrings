@@ -1,11 +1,14 @@
 @use 'variaveis';
-
+@use 'header';
+@use 'hero';
+@use 'about-movie';
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Kapakana", cursive;
+    list-style: none;
 }
 
 body {

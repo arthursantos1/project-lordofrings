@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    height: 90vh;
+    background-image: url('../images/hero_desktop.jpg');
+    background-size: cover;
+
+    &__content {
+        max-width: 640px;
+        width: 100%;
+        margin-top: 200px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 12px;
+        border-radius: 8px;
+
+        h3 {
+            color: variaveis.$corBotoes;
+        }
+
+        p {
+            color: variaveis.$corDeFundo;
+        }
+
+        .button {
+            padding: 6px 12px;
+            width: 100%;
+            background-color: variaveis.$corBotoes;
+            color: variaveis.$corDoTitulo;
+            border: none;
+            border-radius: 6px;
+            margin-top: 15px;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
