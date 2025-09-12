@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const buttons = document.querySelectorAll('[data-tab-button]')
+    const buttons = document.querySelectorAll('[data-tab-button]');
+    const sectionAboutMovie = document.querySelector('.about__movie');
+    const altura = sectionAboutMovie.clientHeight;
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function (botao) {

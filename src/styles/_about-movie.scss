@@ -11,6 +11,10 @@
         justify-content: space-between;
         padding: 10px 25px;
         margin-top: 50px;
+
+        @media(max-width: 768px){
+            display: block;
+        }
     }
 
     &__info {
@@ -25,6 +29,13 @@
     }
 
     &__trailer {
+        @media(max-width: 768px){
+            iframe {
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+
         h3 {
             text-align: center;
         }
