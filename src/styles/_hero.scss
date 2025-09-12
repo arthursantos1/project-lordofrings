@@ -32,6 +32,12 @@
             margin-top: 15px;
             cursor: pointer;
 
+            &:hover {
+                background-color: darken($color: variaveis.$corBotoes, $amount: 10%);
+                color: #fff;
+                transition: ease .5s;
+            }
+
             a {
                 text-decoration: none;
                 font-weight: bold;

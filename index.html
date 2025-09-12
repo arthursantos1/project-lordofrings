@@ -19,27 +19,30 @@
             <h1 class="title-big">Senhor dos Aneis</h1>
             <ul class="header__container__list">
                 <li class="header__container__list__item">
-                    <a href="#" class="title--small">Inicio</a>
+                    <a href="#inicio" class="title--small">Inicio</a>
                 </li>
                 <li class="header__container__list__item">
-                    <a href="#" class="title--small">Sobre o filme</a>
+                    <a href="#movie" class="title--small">Sobre o filme</a>
                 </li>
                 <li class="header__container__list__item">
-                    <a href="#" class="title--small">Personagens</a>
+                    <a href="#galeria" class="title--small">Personagens</a>
+                </li>
+                <li class="header__container__list__item">
+                    <a href="#assistir" class="title--small">Onde assistir</a>
                 </li>
             </ul>
         </div>
     </header>
-    <section class="hero">
+    <section id="inicio" class="hero">
         <div class="hero__content">
             <h3 class="title">Bem-vindos ao Condado</h3>
             <p class="title--small">Um lugar de paz e tranquilidade, lar dos Hobbits. Com seus campos verdes e colinas suaves, é um refugio da tumultuada Terra Média.</p>
             <button class="button">
-                <a href="#" class="title--small">Saiba mais</a>
+                <a href="#galeria" class="title--small">Saiba mais</a>
             </button>
         </div>
     </section>
-    <section class="about__movie">
+    <section id="movie" class="about__movie">
         <h2 class="title">Sobre o filme</h2>
         <div class="about__movie__container">
             <div class="about__movie__info">
@@ -57,7 +60,7 @@
             </div>
         </div>
     </section>
-    <section class="shows">
+    <section id="galeria" class="shows">
         <nav class="shows__tabs">
             <button class="shows__tabs__button shows__tabs__button--is-active" data-tab-button="personagens">
                 Personagens
@@ -130,28 +133,108 @@
             </li>
         </ul>
     </section>
-    <section class="watch">
+    <section id="assistir" class="watch">
         <h2 class="title--big">Onde assistir</h2>
         <ul class="watch__list">
             <li class="watch__list__item">
-                <img src="./dist/images/plataformas/hbo_max.jpg" alt="Logo HBO MAX">
+                <img src="./dist/images/plataformas/hbo-max.jpg" alt="Logo HBO MAX">
                 <h3 class="title--small">HBO MAX</h3>
                 <p class="text--small">Trilogia disponibilizada na HBO Max</p>
-                <a href="#" class="button text">Clique aqui para assistir</a>
+                <a href="https://www.hbomax.com/br/pt/movies/o-senhor-dos-aneis-i-a-sociedade-do-anel-versao-estendida/fb9f961f-6302-4776-91d7-f1b7a69fb61d" class="button text" target="_blank">Clique aqui para assistir</a>
             </li>
             <li class="watch__list__item">
-                <img src="./dist/images/plataformas/prime_video.jfif" alt="Logo Prime vídeo">
+                <img src="./dist/images/plataformas/prime-video.jpg" alt="Logo Prime vídeo">
                 <h3 class="title--small">Prime Video</h3>
                 <p class="text--small">Trilogia disponibilizada na Prime video</p>
-                <a href="#" class="button text">Clique aqui para assistir</a>
+                <a href="https://www.primevideo.com/-/pt/detail/O-Senhor-dos-An%C3%A9is-A-Sociedade-do-Anel/0N0CRBLY1S5GDA4EVTQ34LF5GN" class="button text" target="_blank">Clique aqui para assistir</a>
             </li>
             <li class="watch__list__item">
-                <img src="./dist/images/plataformas/apple_tv.jfif" alt="Logo Apple TV">
+                <img src="./dist/images/plataformas/appletv.png" alt="Logo Apple TV">
                 <h3 class="title--small">Apple TV+</h3>
                 <p class="text--small">Trilogia disponibilizada na AppleTV+ </p>
-                <a href="#" class="button text">Clique aqui para assistir</a>
+                <a href="https://tv.apple.com/br/movie/the-lord-of-the-rings-the-fellowship-of-the-ring/umc.cmc.29au6l8rcr4g5zhuwcx0euri1" class="button text" target="_blank">Clique aqui para assistir</a>
             </li>
         </ul>
+    </section>
+    <section class="avaible-devices">
+        <h2 class="title">Disponível nos dispositivos favoritos</h2>
+        <ul class="avaible-devices__list">
+            <li class="avaible-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="celular">
+                <h4 class="title">Computador e Tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iphone e ipad</li>
+                </ul>
+            </li>
+            <li class="avaible-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <h4 class="title">Computador</h4>
+                <ul class="text">
+                    <li>MacOs</li>
+                    <li>PC windows</li>
+                </ul>
+            </li>
+            <li class="avaible-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="TV">
+                <h4 class="title">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="avaible-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="Videogame">
+                <h4 class="title">Videogame</h4>
+                <ul class="text">
+                    <li>Xbox Series S/X</li>
+                    <li>Xbox One</li>
+                    <li>PS5</li>
+                    <li>PS4</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="footer">
+        <div class="footer__container">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <a href="#" class="text--big">Termos e condições</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text">Proteção de dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text">Anuncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text">Dispositvos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text">Ajuda</a>
+                </li>
+            </ul>
+            <div class="footer__text">
+                <p class="text">
+                    &copy; Todos os direitos reservados - 2025
+                </p>
+                <p class="text">
+                    Desenvolvido por Arthur Santos para fins educacionais
+                </p>
+                <p class="text">
+                    Projeto desenvolvido para o módulo 21 do curso da Ebac
+                </p>
+            </div>
+        </div>
     </section>
     <script src="./src/script/main.js"></script>
 </body>

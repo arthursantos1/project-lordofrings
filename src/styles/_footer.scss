@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+.footer {
+    background-color: variaveis.$corDoTitulo;
+    padding: 26px 8px;
+    margin-top: 50px;
+
+    &__container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+
+        .footer__text {
+            margin-top: 20px;
+
+            p {
+                font-family: Roboto, sans-serif;
+            }
+        }
+    }
+
+    &__links {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__item {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                padding: 8px 18px;
+                display: block;
+                font-size: 24px;
+
+                &:hover {
+                    color: variaveis.$corDeFundo;
+                    transition: ease 0.5s;
+                }
+            }
+        }
+    }
+}
