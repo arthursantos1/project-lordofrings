@@ -1,0 +1,47 @@
+@use 'variaveis';
+
+.watch {
+    padding: 5.6vw;
+    margin-top: 50px;
+
+    h2 {
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        &__item {
+            text-align: center;
+            border: 2px solid variaveis.$corDoTitulo;
+            padding: 5px;
+            border-radius: 4px;
+            
+            h3 {
+                font-family: Roboto, sans-serif;
+            }
+
+            p {
+                font-family: Roboto, sans-serif;
+            }
+
+            img {
+                height: 200px;
+            }
+
+            .button {
+                display: block;
+                text-decoration: none;
+                background-color: variaveis.$corBotoes;
+                color: variaveis.$corDoTexto;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                font-family: Roboto, sans-serif;
+                border-radius: 4px;
+            }
+        }
+    }
+}

@@ -43,7 +43,7 @@
         <h2 class="title">Sobre o filme</h2>
         <div class="about__movie__container">
             <div class="about__movie__info">
-                <p class="text">O Senhor dos Anéis é uma trilogia cinematográfica dirigida por Peter Jackson com base na obra-prima homónima de J.R.R Tolkien.</p>
+                <p class="text">O Senhor dos Anéis é uma trilogia cinematográfica dirigida por Peter Jackson com base na obra-prima de J.R.R Tolkien.</p>
                 <p class="text">Localizada no mundo ficcional na Terra Média, os três filmes seguem o jovem hobbit Frodo Bolseiro em sua missão de destruir o "Um Anel", assegurando assim também a destruição de seu criador, o Senhor das Trevas Sauron. Para auxiliá-lo em sua tarefa, forma-se uma sociedade, composta por representantes dos humanos, hobbits, elfos e anões, encarregados de sua segurança pelos estranhos caminhos que terá que seguir.</p>
                 <p class="text">No entanto, a sociedade quebra-se e Frodo continua sua jornada sozinho, apenas acompanhado por seu amigo fiel, Samwise Gamgee, e pelo traiçoeiro Gollum.</p>
             </div>
@@ -59,16 +59,100 @@
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button class="shows__tabs__button">
+            <button class="shows__tabs__button shows__tabs__button--is-active" data-tab-button="personagens">
                 Personagens
             </button>
-            <button class="shows__tabs__button">
+            <button class="shows__tabs__button" data-tab-button="galeria">
                 Galeria
             </button>
-            <button class="shows__tabs__button">
+            <button class="shows__tabs__button" data-tab-button="trilogia">
                 A trilogia
             </button>
         </nav>
+        <ul data-tab-id="personagens" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/frodo.jpg" alt="Frodo">
+                <h3 class="title">Frodo Baggins</h3>
+                <p class="text">Foi um hobbit do Condado que herdou de seu tio Bilbo Bolseiro. O um Anel de Sauron e comprometeu-se à missão e compremeteu-se à missão de destruí-lo na Montanha de Perdição.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/Gandalf.jpg" alt="Gandalf">
+                <h3 class="title">Gandalf</h3>
+                <p class="text">Gandalf é um Mago Istari, pertencente à raça dos Maiar, espírito angelical do mundo tolkienano, e costumava andar com Nienna com quem aprendeu a paciência e a compaixão.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/aragorn.jpg" alt="Aragorn">
+                <h3 class="title">Aragorn</h3>
+                <p class="text">Aragorn era um Guardião do Norte, introduzido pela primeira vez com o nome Strider em Bree. Acabou sendo descoberto como herdeiro de Isildur e pretendente legítimo aos tronos de Arnor e Gondor.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/Gimli.jpg" alt="Gimli">
+                <h3 class="title">Gimli</h3>
+                <p class="text">Era um anão do povo de Durin que se habilitou para acompanhar Bolseiro na Sociedade do Anel, que tinha por intuito destruir o Um Anel.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/merry.jpg" alt="Merry">
+                <h3 class="title">Merry</h3>
+                <p class="text">Merry é descrito como um dos amigos mais próximos de Frodo Bolseiro, Merry e seu amigo e primo, Pippin, são membros da Companhia do Anel.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/personagens/samwise.jpg" alt="Samwise">
+                <h3 class="title">Samwise</h3>
+                <p class="text">Como uma punição por bisbilhotar a conversa de Gandalf com Frodo sobre o um Anel, Sam foi nomeado companheiro de Frodo em sua empreitada até Valfenda. Na verdade acaba adorando, pois seu sonho sempre foi conhecer elfos.</p>
+            </li>
+        </ul>
+        <ul data-tab-id="galeria" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/galeria/galery_1.jpg" alt="imagem 1">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/galeria/galery_2.jpg" alt="imagem 2">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/galeria/galery_3.jpg" alt="imagem 3">
+            </li>
+        </ul>
+        <ul data-tab-id="trilogia" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/trilogia/Lord-Rings-Fellowship.jpg" alt="fellowship">
+                <h3 class="title--small">Senhor dos Aneis - Sociedade do Anel</h3>
+                <p class="text">O filme narra a procura do Senhor do Escuro Sauron pelo Um Anel. O anel que atualmente está em posse do hobbit Frodo Bolseiro. O destino da Terra-média está em risco, e ele depende apenas de Frodo e mais oito companheiros que formam a Sociedade do Anel que agora rumam para a Montanha da Perdição, na Terra de Mordor, o único local onde o anel pode ser destruído.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/trilogia/lord-rings-two-towers.jpg" alt="two towers">
+                <h3 class="title--small">Senhor dos Aneis - As duas Torres</h3>
+                <p class="text">A Sociedade do Anel se desmanchou após a "Queda Má" de Gandalf o Cinzento e o ataque de Uruk-hais. Boromir morreu, Frodo e Sam continuam no caminho da Montanha da Perdição. Pippin e Merry foram capturados pelos Uruk-hai; e Aragorn, Legolas e Gimli foram ao seu resgate.</p>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/trilogia/lord-ring-return-king.jpg" alt="Return King">
+                <h3 class="title--small">Senhor dos Aneis - O Retorno do Rei</h3>
+                <p class="text">Frodo e Sam aproximam-se ainda mais de Mordor com a finalidade de destruir Um Anel. Gandalf, Aragorn, Legolas e Gimli acompanhados do rei de Rohan e sua comitiva, chegam em Isengard onde encontram-se com Merry e Pippin e partem levando o Palantír.</p>
+            </li>
+        </ul>
     </section>
+    <section class="watch">
+        <h2 class="title--big">Onde assistir</h2>
+        <ul class="watch__list">
+            <li class="watch__list__item">
+                <img src="./dist/images/plataformas/hbo_max.jpg" alt="Logo HBO MAX">
+                <h3 class="title--small">HBO MAX</h3>
+                <p class="text--small">Trilogia disponibilizada na HBO Max</p>
+                <a href="#" class="button text">Clique aqui para assistir</a>
+            </li>
+            <li class="watch__list__item">
+                <img src="./dist/images/plataformas/prime_video.jfif" alt="Logo Prime vídeo">
+                <h3 class="title--small">Prime Video</h3>
+                <p class="text--small">Trilogia disponibilizada na Prime video</p>
+                <a href="#" class="button text">Clique aqui para assistir</a>
+            </li>
+            <li class="watch__list__item">
+                <img src="./dist/images/plataformas/apple_tv.jfif" alt="Logo Apple TV">
+                <h3 class="title--small">Apple TV+</h3>
+                <p class="text--small">Trilogia disponibilizada na AppleTV+ </p>
+                <a href="#" class="button text">Clique aqui para assistir</a>
+            </li>
+        </ul>
+    </section>
+    <script src="./src/script/main.js"></script>
 </body>
 </html>

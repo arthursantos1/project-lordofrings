@@ -1,0 +1,50 @@
+@use 'variaveis';
+
+.shows {
+    padding: 2vw 5.6vw; 
+    min-height: 50vw;
+    margin-top: 50px;
+
+    &__list {
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        margin-top: 44px;
+
+        &--is-active {
+            display: grid;
+        }
+
+        &__item {
+            img {
+                max-width: 100%;
+                border-radius: 4px;
+            }
+
+            p {
+                font-family: Roboto, sans-serif;
+            }
+        }
+    }
+
+    &__tabs {
+        display: flex;
+        justify-content: center;
+
+        &__button {
+            font-size: 25px;
+            margin-right: 20px;
+            background-color: variaveis.$corDoTitulo;
+            color: variaveis.$corBotoes;
+            padding: 7px 13px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            border: 3px solid transparent;
+
+            &--is-active {
+                border-color: variaveis.$corBotoes;
+            }
+        }
+    }
+}
